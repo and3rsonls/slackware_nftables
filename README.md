@@ -1,3 +1,4 @@
+[Imgur](https://i.imgur.com/K7SLZM9.png)
 ## [pt](#pt)-[en](#en)
 # Slackware 14.2 Linux nftables
 #### O nftable é nativo na instalação do Slackware 14.2 <a name="pt"></a>
