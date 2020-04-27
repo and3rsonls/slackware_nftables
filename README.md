@@ -1,6 +1,6 @@
-## pt-[en](#en)
+## [pt](#pt)-[en](#en)
 # Slackware 14.2 Linux nftables
-#### O nftable é nativo na instalação do Slackware 14.2</br>
+#### O nftable é nativo na instalação do Slackware 14.2 <a name="pt"></a>
 ```
 # mv -v nftables.conf /etc/nftables/
   - copiar ou mover o nftables.conf (arquivo de configuração) para "/etc/nftables/"
@@ -25,8 +25,8 @@
   - adicione as linhas acima em "/etc/rc.d/r.inet2" para a inicialização durante o boot
 ```
 
-<a name="en"></a>
-#### nftable is native to Slackware 14.2 installation
+## [pt](#pt)-[en](#en)
+#### nftable is native to Slackware 14.2 installation <a name="en"></a>
 ```
 # mv -v nftables.conf /etc/nftables/
    - copy or move nftables.conf (configuration file) to "/etc/nftables/"
