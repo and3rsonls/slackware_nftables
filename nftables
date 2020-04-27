@@ -9,34 +9,24 @@ table inet filter {
 		# accept traffic originated from us
 		ct state established,related counter accept
 		
+		# accept icmp (ping)
+		ip protocol icmp accept
+		
 		# accept any localhost traffic
 		iif lo counter accept
 		
 		# count and drop any other traffic
 		counter drop comment "count dropped packets"
-		
-		#
-		tcp dport 21 counter accept
-		tcp dport 22 counter accept
-		
-		# server nginx
+					
+		# server 
 		tcp dport 80 counter accept
 		tcp dport 443 counter accept
-		
-		tcp dport 8080 counter accept
-		tcp dport 3306 counter accept
-		
-		# transmission
-		tcp dport 9091 counter accept
-		
-		#
+					
+		# ntp
 		tcp dport 123 counter accept
 				
 		# drop invalid packets
 		#ct state invalid counter drop
-
-		# accept icmp (ping)
-		ip protocol icmp accept
 
 		counter comment "count dropped packets"
 		
