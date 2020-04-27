@@ -1,0 +1,35 @@
+#!/bin/bash
+# /etc/rc.d/rc.nftables
+# by ans for slackware14.2
+# ansenrod@cryptolab.net
+
+start(){
+/usr/sbin/nft -f /etc/nftables/nftables.conf
+echo "nftables inicialized"
+}
+
+stop(){
+/usr/sbin/nft flush ruleset
+echo "nftables stoped"
+}
+
+case "$1" in
+start)
+start
+;;
+	 
+stop)
+stop
+;;
+		 
+restart)
+stop
+sleep 1.5
+start
+;;
+	 
+*)
+echo "Usage: $0 (start|stop|restart)"
+esac
+
+
