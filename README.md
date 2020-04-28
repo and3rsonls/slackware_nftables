@@ -26,7 +26,7 @@
 	|   fi
   - adicione as linhas acima em "/etc/rc.d/r.inet2" para a inicialização durante o boot
 ```
-<p align="center"><a href="https://imgur.com/eCPojbV"><img src="https://i.imgur.com/eCPojbV.png" /></a></p>
+<p align="center"><img src="https://i.imgur.com/lemKfiW.jpg" width="150"/></p>
 
 ## [en](#en)-[pt](#pt)
 #### nftable is native to Slackware 14.2 installation <a name="en"></a>
