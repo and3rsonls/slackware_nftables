@@ -1,4 +1,5 @@
-[Imgur](https://i.imgur.com/K7SLZM9.png)
+<p align="center"><img src="https://i.imgur.com/K7SLZM9.png" width="700"/></p>
+
 ## [pt](#pt)-[en](#en)
 # Slackware 14.2 Linux nftables
 #### O nftable é nativo na instalação do Slackware 14.2 <a name="pt"></a>
@@ -25,6 +26,7 @@
 	|   fi
   - adicione as linhas acima em "/etc/rc.d/r.inet2" para a inicialização durante o boot
 ```
+<p align="center"><a href="https://imgur.com/eCPojbV"><img src="https://i.imgur.com/eCPojbV.png" /></a></p>
 
 ## [en](#en)-[pt](#pt)
 #### nftable is native to Slackware 14.2 installation <a name="en"></a>
@@ -52,3 +54,4 @@
 	| fi
    - add the lines above in "/etc/rc.d/r.inet2" for boot-up
 ```
+**Slackware® is a registered trademark of [Slackware Linux](http://www.slackware.com/index.php), Inc. All logos and graphics are copyrighted.**
