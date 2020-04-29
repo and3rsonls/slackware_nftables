@@ -54,5 +54,5 @@
 	| fi
    - add the lines above in "/etc/rc.d/r.inet2" for boot-up
 ```
-**Slackware® is a registered trademark of [Patrick Volkerding](http://slackware.com/trademark/trademark.php), Inc. All logos and graphics are copyrighted.**
-**Linux® is a registered trademark of Linus [Torvalds](http://www.linuxmark.org/)**
+*Slackware® is a registered trademark of [Patrick Volkerding](http://slackware.com/trademark/trademark.php), Inc. All logos and graphics are copyrighted.*</br>
+*Linux® is a registered trademark of Linus [Torvalds](http://www.linuxmark.org/)*
