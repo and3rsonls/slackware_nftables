@@ -52,7 +52,7 @@
 	| if [-x /etc/rc.d/rc.nftables]; then
 	| /etc/rc.d/rc.nftables start
 	| fi
-   - add the lines above in "/etc/rc.d/r.inet2" for boot-up
+   - add the lines above in "/etc/rc.d/rc.inet2" for boot-up
 ```
 ######  Slackware® is a registered trademark of [Patrick Volkerding](http://slackware.com/trademark/trademark.php), Inc. All logos and graphics are copyrighted.
 ###### Linux® is a registered trademark of Linus [Torvalds](http://www.linuxmark.org/)
