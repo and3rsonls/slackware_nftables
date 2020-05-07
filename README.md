@@ -24,7 +24,7 @@
 	|   if [ -x /etc/rc.d/rc.nftables ]; then
 	|     /etc/rc.d/rc.nftables start
 	|   fi
-  - adicione as linhas acima em "/etc/rc.d/r.inet2" para a inicialização durante o boot
+  - adicione as linhas acima em "/etc/rc.d/rc.inet2" para a inicialização durante o boot
 ```
 <p align="center"><img src="https://i.imgur.com/lemKfiW.jpg" width="150"/></p>
 
